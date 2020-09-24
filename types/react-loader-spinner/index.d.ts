@@ -32,6 +32,8 @@ interface LoaderProps {
     timeout?: number; // in milliseconds
     height?: number;
     width?: number;
+    radius? number;
+    secondaryColor?: string;
     visible?: boolean | string;
 }
 
